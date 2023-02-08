@@ -1,0 +1,14 @@
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
