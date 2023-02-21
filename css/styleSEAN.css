@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height: 72px;
+    background-color: #e0ebe8;
+}
+.logo img {
+    width: 5%;
+    margin-left: 15px;
+}
+#nav {
+    float: right;
+}
+#nav li {
+    display: inline-block;
+}
+#nav li a {
+    text-decoration: none;
+    color:#45b29f ;
+    margin-right: 15px;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.im-sean {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.slider_p {
+    color: #45b29a;
+    font-weight: 400;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+}
+.cloud-right {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#slider {
+    background-color: #e0ebe8;
+}
+#img {
+    background-color: #e0ebe8;
+    text-align: center;
+}
+#content article figure img {
+    width: 10%;
+    text-align: center;
+}
+#content article p {
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 460px;
+    margin: 0 auto;
+}
+#content article h3 {
+    text-align: center;
+    color: #45b29a;
+    font-size: 2em;
+    font-weight: 500;
+}
+#design .design-img .anhchay1 {
+    background-image: url(https://web.archive.org/web/20181117033109im_/http://seanhalpin.io/assets/img/content/home/what-i-do/design-icons-vert@2x.png);
+    background-size: 77px 231px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    animation-name: anhchay-icon;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    position: relative;
+    bottom: 80px;
+    margin-left: auto;
+}
+#develop .develop-img .anhchay2 {
+    background-image: url(https://web.archive.org/web/20181116224455im_/http://seanhalpin.io/assets/img/content/home/what-i-do/dev-icons-vert@2x.png);
+    background-size: 77px 231px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    animation-name: anhchay-icon;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    position: relative;
+    bottom: 80px;
+    margin-left: auto
+}
+#What-i-can-do article header h2 {
+    color: #45b29a;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+}
+#Hi {
+    text-align: center;
+}
+#i-can-help article header h2 {
+    color: #45b29a;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+}
+#footer {
+    background-color: #c5ded7;
+    height: 100px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.footer-list {
+    text-align: center;
+}
+#footer .footer-list li {
+    display: inline-block;
+}
+#footer .footer-list li a {
+    text-decoration: none;
+    color: #45b29a;
+    margin-right: 20px;
+}
+.mail:hover {
+    background-color:#6eb19e;
+}
+a:hover {
+    background-color: #022e24;
+}
+.footer-end {
+    text-align: center;
+    color: #45b29a;
+    margin-top: 50px;
+}
+.footer-end p a {
+    color: #45b29a;
+}
+.message-me a {
+    text-decoration: none;
+    background: #45b29a;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #1b7f69;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+@keyframes anhchay-icon {
+    0% {background-position: 0 0;}
+    5% {background-position: 0 77px;}
+    35%{background-position: 0 77px;}
+    40%{background-position: 0 154px;}
+    68%{background-position: 0 154px;}
+    73%{background-position: 0 231px;}
+    100%{background-position: 0 231px;}
+}
+.design-img,.develop-img {
+    background-image: url(https://web.archive.org/web/20181117032935im_/http://seanhalpin.io/assets/img/content/home/what-i-do/line-bg@2x.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: 3px auto;
+}
+#i-can-help {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Hi img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#slider p {
+    font-size: 180%;
+}
+.breaker {
+    background-image: url(https://web.archive.org/web/20181117005644im_/http://seanhalpin.io/assets/img/ui/line-bg@2x.png);
+    height: 6px;
+    width: 10%;
+    background-size: auto 6px;
+    margin: auto;
+    margin-top: 50px;
+}

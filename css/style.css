@@ -1,13 +1,19 @@
 .red {
     background-color: red;
+    position: relative;
+    top: 400px;
+    left: 400px;
 }
 .yellow {
     background-color: yellow;
-    margin-left: 200px;
+    position: relative;
+    bottom: 200px;
 }
 .green {
     background-color: green;
-    margin-left: 400px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
 }
 div {
     width: 200px;
