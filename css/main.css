@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin :0;
+    font-family: 'Lobster', cursive;
+}
+.container{
+    height:100vh;
+    overflow-x: hidden;
+    perspective: 20px;
+}
+.parallax{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.bg{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-image: url(/img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(-10px) scale(1.);
+}
+.main-content{
+    color:#fff;
+    font-size: xxx-large;
+    transform: translateZ(10px);
+}
+.static{
+    height:100vh;
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        #1B2735 50px
+    );
+    transform: translateY(-50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: xxx-large;
+}
+.rock1{
+    position: absolute;
+    width:60px;
+    transform: translateZ(17px)
+        translateX(-50px) translateY(80px)
+    ;
+}
+.rock2{
+    position: absolute;
+    width:90px;
+    transform: translateZ(5px)
+        translateX(80px) translateY(30px)
+    ;
+}
+#content article figure img {
+    width: 10%;
+    text-align: center;
+    border-radius: 50%;
+}
+#content article p {
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 460px;
+    margin: 0 auto;
+}
+#content article h3 {
+    text-align: center;
+    color: #45b29a;
+    font-size: 2em;
+    font-weight: 500;
+}
+#design .design-img .anhchay1 {
+    background-image: url(https://web.archive.org/web/20181117033109im_/http://seanhalpin.io/assets/img/content/home/what-i-do/design-icons-vert@2x.png);
+    background-size: 77px 231px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    animation-name: anhchay-icon;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    position: relative;
+    bottom: 80px;
+    margin-left: auto;
+}
+#develop .develop-img .anhchay2 {
+    background-image: url(https://web.archive.org/web/20181116224455im_/http://seanhalpin.io/assets/img/content/home/what-i-do/dev-icons-vert@2x.png);
+    background-size: 77px 231px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    animation-name: anhchay-icon;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    position: relative;
+    bottom: 80px;
+    margin-left: auto
+}
+#What-i-can-do article header h2 {
+    color: #45b29a;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+}
+#Hi {
+    text-align: center;
+}
+#i-can-help article header h2 {
+    color: #45b29a;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+}
+#footer {
+    background-color: #1B2735;
+    height: 100px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.footer-list {
+    text-align: center;
+}
+#footer .footer-list li {
+    display: inline-block;
+}
+#footer .footer-list li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.mail:hover {
+    background-color:#1B2735;
+}
+a:hover {
+    color: #505b68;
+}
+.footer-end {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.footer-end p a {
+    color: white;
+}
+.message-me a {
+    text-decoration: none;
+    background: #1B2735;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+@keyframes anhchay-icon {
+    0% {background-position: 0 0;}
+    5% {background-position: 0 77px;}
+    35%{background-position: 0 77px;}
+    40%{background-position: 0 154px;}
+    68%{background-position: 0 154px;}
+    73%{background-position: 0 231px;}
+    100%{background-position: 0 231px;}
+}
+.design-img,.develop-img {
+    background-image: url(https://web.archive.org/web/20181117032935im_/http://seanhalpin.io/assets/img/content/home/what-i-do/line-bg@2x.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: 3px auto;
+}
+#i-can-help {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Hi img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#slider p {
+    font-size: 180%;
+}
+.breaker {
+    background-image: url(https://web.archive.org/web/20181117005644im_/http://seanhalpin.io/assets/img/ui/line-bg@2x.png);
+    height: 6px;
+    width: 10%;
+    background-size: auto 6px;
+    margin: auto;
+    margin-top: 50px;
+}
+#header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height: 72px;
+    background-color: #1B2735;
+    position: fixed;
+    width: 100%;
+}
+.logo img {
+    width: 5%;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+#nav {
+    float: right;
+}
+#nav li {
+    display: inline-block;
+}
+#nav li a {
+    text-decoration: none;
+    color:#fff ;
+    margin-right: 15px;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}

@@ -11,6 +11,7 @@
 .logo img {
     width: 5%;
     margin-left: 15px;
+    border-radius: 50%;
 }
 #nav {
     float: right;
@@ -126,7 +127,7 @@
     background-color:#6eb19e;
 }
 a:hover {
-    background-color: #022e24;
+    color: rgb(34, 4, 4);
 }
 .footer-end {
     text-align: center;
