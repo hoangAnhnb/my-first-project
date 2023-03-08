@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+.main-content h2 {
+    position: relative;
+    top: 50vh;
+    left: 50%;
+}
+.header h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+}
+.container .header {
+    background-color: red;
+    color: black;
+    height: 100px;
+}
+.main-list>div {
+    border: solid 1px black;
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+}
+.main {
+    display: flex;
+}
+.main-list,.main-content{
+    width: 50%;
+    height: 100vh;
+}
+.main-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    gap: 10px;
+}
