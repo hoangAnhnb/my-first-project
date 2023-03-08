@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+} 
+.main {
+    margin-left: 200px;
+    margin-right: 100px;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.nd1,.nd2 {
+    display: inline-block;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-header .left {
+    background-color: blueviolet;
+    width: 50%;
+    height: 100px;
+}
+.main-header .right {
+    background-color: yellow;
+    width: 15%;
+    height: 100px;
+}
+.main-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.main-list>div {
+    border: solid 2px black;
+    width: 250px;
+    height: 300px;   
+}
