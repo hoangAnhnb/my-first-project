@@ -18,7 +18,7 @@
 }
 .main-list>div {
     border: solid 1px black;
-    width: 250px;
+    width: 30%;
     height: 200px;
     margin: 5px;
 }
@@ -31,7 +31,6 @@
 }
 .main-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     overflow-y: scroll;
     gap: 10px;

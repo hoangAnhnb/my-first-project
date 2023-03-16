@@ -29,10 +29,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 38px;
 }
 .main-list>div {
     border: solid 2px black;
-    width: 250px;
-    height: 300px;   
+    width: 30%;
+    height: 350px;   
 }
