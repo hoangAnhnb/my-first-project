@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row m-3">
+        <div class="col-md-6">
+          <label for="inputName">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-6">
+          <label for="inputAge">Age (optional)</label>
+          <input type="text" class="form-control" id="inputAge" placeholder="Age">
+        </div>
+        <div class="col-md-6">
+          <label for="inputState">current role</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select</option>
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">Parents</option>
+          </select>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-6">
+          <label for="inputName">Would you recommend survey to a friend?</label>
+          <div class="list-form"><div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Definitely
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Maybe
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Not sure
+            </label>
+          </div></div>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail">This survey useful yes or no?</label>
+          <div class="list-form"><div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Yes
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              No
+            </label>
+          </div></div>
+        </div>
+    </div>
+    <div class="row"><div class="col m-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Leave Message</label>
+        <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="7" placeholder="Enter your commend here..."></textarea>
+    </div></div>
+</body>
+</html>
