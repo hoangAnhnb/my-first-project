@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">welcome to my new page</h1>
+    <form onsubmit="return validateForm(event)"  method="post">
+        username: <input type="text" id="name" placeholder="Full Name" name="name" required minlength="9" maxlength="100" />
+        <br />
+        sex: <input name="sex" type="radio" value="male" />male
+             <input name="sex" type="radio" value="female" checked="checked" />female
+        <br/>
+        email: <input type="email" id="email" placeholder="email@address.com" name="email" required />
+        <br />
+               <input type="submit" value="Submit" />
+  </form>
+  <p id="nameValue"></p>
+  <p id="sexValue"></p>
+  <p id="emailValue"></p>
+  <script src="main.js"></script>
+</body>
+</html>
